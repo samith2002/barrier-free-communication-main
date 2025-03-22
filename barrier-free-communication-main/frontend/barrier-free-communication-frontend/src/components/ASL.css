@@ -1,0 +1,15 @@
+.card-button{
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #7a5752;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+.audio-upload .dropdown{
+    flex-direction: column;
+}

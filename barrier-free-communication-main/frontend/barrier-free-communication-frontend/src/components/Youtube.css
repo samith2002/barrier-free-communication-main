@@ -1,0 +1,142 @@
+.youtube-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .youtube-title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .youtube-form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .youtube-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .youtube-button {
+    background-color: #8B5D51;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .youtube-button:hover {
+    background-color: #6f4a42;
+  }
+  
+  .youtube-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .youtube-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .youtube-captions-container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .youtube-captions {
+    padding: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .youtube-error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* File format selector styling */
+  .MuiFormControl-root {
+    margin: 0 !important;
+  }
+  
+  .MuiInputLabel-root {
+    color: #333 !important;
+  }
+  
+  .MuiOutlinedInput-root {
+    background-color: white !important;
+  }
+  
+  .MuiSelect-icon {
+    color: #333 !important;
+  }
+  
+  .MuiMenuItem-root {
+    font-size: 14px !important;
+  }
+  
+  /* Dark theme styles */
+  .dark .youtube-form-container,
+  .dark .youtube-captions {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+  }
+  
+  .dark .youtube-input {
+    background-color: #444;
+    color: white;
+    border-color: #555;
+  }
+  
+  .dark .youtube-label,
+  .dark .youtube-title {
+    color: white;
+  }
+  
+  /* Dark theme for select */
+  .dark .MuiInputLabel-root {
+    color: white !important;
+  }
+  
+  .dark .MuiOutlinedInput-root {
+    background-color: #444 !important;
+    color: white !important;
+  }
+  
+  .dark .MuiOutlinedInput-notchedOutline {
+    border-color: #666 !important;
+  }
+  
+  .dark .MuiSelect-icon {
+    color: white !important;
+  }
+  
+  .dark-select .MuiSelect-select {
+    color: white !important;
+  } 
